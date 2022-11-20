@@ -6,7 +6,7 @@ function roboger(n) {
     result[i] = "Won't you be my neighbor?";
   } else if (i.toString().includes("2")) {
     result[i] = "Boop!";
-  } else if (i.toString().includes("!")) {
+  } else if (i.toString().includes("1")) {
     result [i] = "Beep!";
   }
  }
