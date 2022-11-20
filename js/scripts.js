@@ -1,5 +1,5 @@
 function roboger(n) {
-  let result = 0
+  let result = []
   for (let i = 0; i <= n; i++) {
   
     if (i.toString().includes("3")) {
