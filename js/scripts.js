@@ -8,6 +8,8 @@ function roboger(n) {
     result[i] = "Boop!";
   } else if (i.toString().includes("1")) {
     result [i] = "Beep!";
+  } else {
+    result [i] = n;
   }
  }
  return result
